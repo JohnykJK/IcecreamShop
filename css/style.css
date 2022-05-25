@@ -1,2 +1,11 @@
-body{background: black;
+body{
+    background: rgb(244, 116, 116);
+    font-family: 'Fredoka One', cursive;
+    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+}
+.conteiner{
+    max-width: 1235px;
+    background: #ffff;
 }
