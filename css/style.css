@@ -8,4 +8,16 @@ body{
 .conteiner{
     max-width: 1235px;
     background: #ffff;
+    margin: 0 auto;
+}
+.flex-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-items{
+    display: flex;
+    margin-top: 20px;
+}
+.batton-menu{
+    margin-top: 20px;
 }
