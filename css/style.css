@@ -10,14 +10,55 @@ body{
     background: #ffff;
     margin: 0 auto;
 }
+/*-----------------------------------header-------------------------------*/
 .flex-menu{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.logo-menu img{
+    margin-left: 5px;
 }
 .nav-items{
-    display: flex;
-    margin-top: 20px;
+    display: inline-flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 70px;
+}
+.nav-items li{
+    margin-right: 40px;
+}
+.nav-item-active{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 17px;
+    color: #D23166;
+
+}
+.nav-items{
+    font-family: Roboto ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #150101;
+    opacity: 06;
+}
+.nav-items a:hover{
+    color: #D23166;
 }
 .batton-menu{
-    margin-top: 20px;
+    margin-right: 5px;
+}
+.btn{
+    background-color: #D23166;
+    padding: 14px 50px;
+    border-radius: 5px;
+    color: #FAFAFA ;
+    font-family: Hind Madurai ;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
 }
