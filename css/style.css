@@ -18,11 +18,24 @@ body{
     width: 100%;
     z-index: 50;
 }
-
+.header::before{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #F9F6F1;
+    z-index: 3;
+}
+.flex-menu{
+    position: relative;
+}
 .flex-menu{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 4;
 }
 .logo-menu img{
     margin-left: 5px;
@@ -77,8 +90,5 @@ body{
     font-size: 16px;
     line-height: 22px;
 }
-/*-----------------------------------------End header------------------------*/
-.baner{
-    height: 5000px;
-    background: #FAFAFA;
-}
+
+/*-------------------------------- End header ------------------*/
