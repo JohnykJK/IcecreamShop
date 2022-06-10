@@ -97,7 +97,9 @@ body{
 
 /*-------------------------------- End header ------------------*/
 
-
+main{
+    padding-top: 200px;
+}
 
 
 
@@ -183,5 +185,14 @@ body.lock{
       z-index: -40;
       overflow: auto;
       display: block;
+  }
+  .nav-items{
+      display: block;
+  }
+  .nav-items{
+      margin: 20px 0 0 0;
+  }
+  .nav-items li {
+      padding-bottom: 30px;
   }
 }
