@@ -96,8 +96,49 @@ body{
 }
 
 /*-------------------------------- End header ------------------*/
-
-
+.first__baner{
+    margin-top: 150px;
+}
+.side_baner{
+    max-width: 650px;
+    padding: 15px;
+}
+.first_p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #0F0101;
+    margin-bottom: 10px;
+}
+.main_title{
+    font-family: Fredoka One;
+    font-style: normal;
+    font-weight: 400 ;
+    font-size: 57px ;
+    line-height: 69px;
+    color: #0F0101;
+    opacity: 0.9;
+    margin-bottom: 30px;
+}
+.colored{
+    color: #D23166;
+}
+.second_p{
+    font-family: Hind Madurai;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0F0101;
+    opacity: 0.6;
+    margin-bottom: 50px;
+}
+.flex_baner{
+    display: flex;
+}
 
 
 
@@ -192,7 +233,9 @@ body.lock{
   .nav-items li {
       padding-bottom: 30px;
   }
-  .nav-items a{
-    padding: 10px 0 0 25px;
-}
+  .nav-items {
+    font-size: 20px;
+    font-weight: 500;
+  }
+
 }
