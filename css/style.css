@@ -139,6 +139,18 @@ body{
 .flex_baner{
     display: flex;
 }
+/*-----------------------------------end first baner-----------*/
+/*------------------------- delivery bar --------------------*/
+.flex__delivery{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.delivery_item img{
+    margin-bottom: 30px;
+}
 
 
 
