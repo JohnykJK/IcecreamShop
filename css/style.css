@@ -139,6 +139,11 @@ body{
 .flex_baner{
     display: flex;
 }
+.icebowl_img{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
 /*-----------------------------------end first baner-----------*/
 /*------------------------- delivery bar --------------------*/
 .flex__delivery{
@@ -250,4 +255,15 @@ body.lock{
     font-weight: 500;
   }
 
+}
+@media(max-width: 970px){
+    .flex_baner{
+        display: block;
+    }
+    .icebowl_img{
+        object-fit: fill;
+        width: 50%;
+        height: 50%;
+       margin: 0 auto;
+    }
 }
