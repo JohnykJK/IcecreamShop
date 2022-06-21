@@ -9,6 +9,7 @@ body{
     max-width: 1235px;
     background: #ffff;
     margin: 0 auto;
+    padding: 0 10px 0 10px;
 }
 /*-----------------------------------header-------------------------------*/
 .header{
@@ -100,7 +101,6 @@ body{
     margin-top: 150px;
 }
 .side_baner{
-    max-width: 650px;
     padding: 15px;
 }
 .first_p{
@@ -141,7 +141,8 @@ body{
 }
 .icebowl_img{
     object-fit: fill;
-    max-width: 100%;
+    max-width: 50%;
+    margin: 5px 5px 5px 5px;
 }
 /*-----------------------------------end first baner-----------*/
 /*------------------------- delivery bar --------------------*/
