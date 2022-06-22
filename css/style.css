@@ -145,6 +145,24 @@ body{
     margin: 5px 5px 5px 5px;
 }
 /*-----------------------------------end first baner-----------*/
+/*----------------------------------- second baner------------*/
+.second__baner{
+    margin-top: 150px;
+}
+.second__baner h2{
+    font-family: Hind Madurai;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44px;
+    line-height: 48px;
+    color: #150101;
+}
+.second__baner p{
+    font-size: 16px;
+    line-height: 24px;
+}
+
+/*--------------------------- end second  baner-----------*/
 /*------------------------- delivery bar --------------------*/
 .flex__delivery{
     margin-top: 100px;
@@ -160,10 +178,20 @@ body{
     object-fit: fill;
     max-lines: 50%;
 }
-
-
-
-
+/*-------------------------- end deliveri bar --------------*/
+/*------------------------- prodacts menu ------------------*/
+.prodacts{
+    margin-top: 30px;
+}
+.main__prodacts{
+    text-align: center;
+    font-family: Hind Madurai;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 44px;
+    line-height: 61px;
+    color: #150101;
+}
 /*--------------------------------Adaptiv-----------------------*/
 @media(max-width: 970px){
 body.lock{
