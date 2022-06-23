@@ -179,6 +179,14 @@ body{
     max-lines: 50%;
 }
 /*-------------------------- end deliveri bar --------------*/
+/* --------------------------ice cream menu---------------- */
+.icecream__menu ul{
+    display: flex;
+    justify-content: center;
+}
+.icecream__menu li{
+    padding-right: 15px;
+}
 /*------------------------- prodacts menu ------------------*/
 .prodacts{
     margin-top: 30px;
