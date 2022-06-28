@@ -190,6 +190,7 @@ body{
 /*------------------------- prodacts menu ------------------*/
 .prodacts{
     margin-top: 30px;
+    margin-bottom: 100px;
 }
 .main__prodacts{
     text-align: center;
@@ -200,6 +201,23 @@ body{
     line-height: 61px;
     color: #150101;
 }
+.icecream__menu ul{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+    opacity: 0.6;
+}
+.active{
+    border-bottom: 2px  solid #D23166;
+    color: #150101;
+}
+.icecream__menu a:hover{
+    border-bottom: 2px solid #D23166;
+}
+
 /*--------------------------------Adaptiv-----------------------*/
 @media(max-width: 970px){
 body.lock{
