@@ -157,7 +157,7 @@ body{
     line-height: 48px;
     color: #150101;
 }
-.second__baner p{
+.second_p{
     font-size: 16px;
     line-height: 24px;
 }
@@ -217,7 +217,24 @@ body{
 .icecream__menu a:hover{
     border-bottom: 2px solid #D23166;
 }
-
+.flex_baner2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.flex_baner3{
+    display: flex;
+}
+.price{
+    margin-bottom: 30px;
+}
+.price{
+    font-family: Hind Madurai;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 35px;
+    color: #0F0101;
+}
 /*--------------------------------Adaptiv-----------------------*/
 @media(max-width: 970px){
 body.lock{
@@ -323,5 +340,10 @@ body.lock{
         margin-left: auto;
         margin-right: auto 
     }
-   
+    .flex_baner2{
+        flex-direction: column;
+    }
+    .flex_baner3{
+        flex-direction: column;
+    }
 }
