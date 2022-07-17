@@ -258,7 +258,7 @@ body.lock{
     width: 30px;
     height: 20px;
     z-index: 4;
-    margin-left: 45px;
+    margin-right: 10px;
 }
 .burger__icon span{
     position: absolute;
@@ -337,9 +337,11 @@ body.lock{
     font-size: 20px;
     font-weight: 500;
   }
-
+  .batton-menu {
+    margin-right: 10px;
+  }
 }
-@media(max-width: 850px){
+@media(max-width: 970px){
     .flex_baner{
         display: block;
     }
@@ -354,4 +356,14 @@ body.lock{
     .flex_baner3{
         flex-direction: column;
     }
+    .first_p{
+        margin-top: 10px;
+    }
+    .batton-menu{
+        display: none;
+    }
+    .second__baner h2 {
+        margin-top: 10px;
+    }
+
 }
