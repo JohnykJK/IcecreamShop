@@ -147,6 +147,7 @@ body{
 }
 /*-----------------------------------end first baner-----------*/
 /*----------------------------------- second baner------------*/
+/*
 .second__baner{
     margin-top: 150px;
 }
@@ -182,6 +183,7 @@ body{
 */
 /*--------------------------- end second  baner-----------*/
 /*------------------------- delivery bar --------------------*/
+/*
 .flex__delivery{
     margin-top: 100px;
     display: flex;
@@ -223,6 +225,7 @@ body{
 }
 /*-------------------------- end deliveri bar --------------*/
 /* --------------------------ice cream menu---------------- */
+/*
 .icecream__menu ul{
     display: flex;
     justify-content: center;
@@ -231,6 +234,7 @@ body{
     padding-right: 40px;
 }
 /*------------------------- prodacts menu ------------------*/
+/*
 .prodacts{
     margin-top: 30px;
     margin-bottom: 100px;
@@ -365,8 +369,7 @@ body.lock{
   }
   .nav-item-active {
     font-size: 20px;
-    hi
-}
+  }
   .nav-items{
       display: block;
   }
