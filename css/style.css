@@ -178,6 +178,7 @@ body{
 }
 .delivery_item img{
     margin-bottom: 30px;
+    object-fit: contain;
 }
 .icebowl_img{
     object-fit: contain;
