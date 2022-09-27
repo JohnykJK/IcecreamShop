@@ -397,5 +397,9 @@ body.lock{
     .second__baner h2 {
         margin-top: 10px;
     }
-
+    .flex__delivery {
+        margin-top: 100px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
